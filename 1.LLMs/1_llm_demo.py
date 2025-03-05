@@ -7,4 +7,4 @@ llm = OpenAI(model='gpt-3.5-turbo-instruct') # here we write which model to comm
 
 result = llm.invoke("What is the capital of India") #  invoke - it helps with communication with llm model
 
-print(result)
+print(result) # the answer will be like simple string
